@@ -18,10 +18,10 @@ export function ContactMe(){
     const [message, setMessage] = useState("")
     const [button, setButton] = useState("Send")
 
-    const PUBLIC_KEY = process.env.PUBLIC_KEY !== undefined ? process.env.PUBLIC_KEY : ""
-    const SERVICE_ID = process.env.SERVICE_ID !== undefined ? process.env.SERVICE_ID : ""
-    const TEMPLATE_ID = process.env.TEMPLATE_ID !== undefined ? process.env.TEMPLATE_ID : ""
-    
+    const PUBLIC_KEY = process.env.PUBLIC_KEY ? process.env.PUBLIC_KEY : ""
+    const SERVICE_ID = process.env.SERVICE_ID ? process.env.SERVICE_ID : ""
+    const TEMPLATE_ID = process.env.TEMPLATE_ID ? process.env.TEMPLATE_ID : ""
+
     emailjs.init(PUBLIC_KEY)
 
     const sendEmail = (e: FormEvent) => {
