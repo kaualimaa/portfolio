@@ -11,7 +11,7 @@ import { FormEvent, useState } from "react";
 
 
 export function ContactMe(){
-    console.log(process.env)
+    console.log(import.meta.env)
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
