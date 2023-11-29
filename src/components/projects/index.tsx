@@ -12,7 +12,14 @@ interface IRepo{
     topics: Array<string>,
 }
 
-function ProjectCard({ id, name, description, html_url, topics}: IRepo){
+interface IProjectCard{
+    id: string,
+    name: string,
+    html_url: string,
+    description: string,
+}
+
+function ProjectCard({ id, name, description, html_url}: IProjectCard){
 
     return (
         <Project key={id}>
