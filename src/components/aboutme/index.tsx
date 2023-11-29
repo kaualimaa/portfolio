@@ -5,7 +5,7 @@ export function AboutMe(){
         <Section>
             <Title>About Me</Title>
             <AboutMeDiv>
-                <Picture src="src/assets/kaua.jpg" alt="Kauã Lima (Me)" />
+                <Picture src="https://avatars.githubusercontent.com/u/93043960?v=4" alt="Kauã Lima (Me)" />
                 <TextDiv>
                     <p>
                         Hello, my name is Kauã Lima, a Brazilian born in the city of Fortaleza, Ceará. I am 17 years old. I got introduced to programming during high school; My first encounter was with HTML and CSS. Later, I learned the pseudolanguage Portugol and, subsequently, Python. I started as a web developer, ventured into both Front-end and Back-end development. In the Back-end, I had my first experience with databases, ORMs, and APIs.
