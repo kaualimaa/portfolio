@@ -63,7 +63,7 @@ export function Projects(){
                         console.log(topics.includes("project"));
                         if (topics.includes("project")) {
                             return (
-                                <ProjectCard key={id} id={id} name={name} description={description} html_url={html_url} topics={topics} />
+                                <ProjectCard key={id} id={id} name={name} description={description} html_url={html_url} />
                             );
                         } else {
                             return null;
