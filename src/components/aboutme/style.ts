@@ -4,25 +4,32 @@ export const Section = styled.section`
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 95vh;
+    min-height: 40vh;
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--black2);
-`;
+    
+    @media only screen and (max-width: 900px) {
+        min-height: 150vh;
+        width: 100%;
+    }
+    `;
 
 export const Title = styled.h1`
     font: normal bold 3rem "Poppins", sans-serif;
     color: var(--white);
     text-align: center;
     margin-bottom: 10px;
-`;
+    `;
 
 export const AboutMeDiv = styled.div`
     display: flex;
-    width: 80%;
-    height: 100%;
+    width: 100%;
+    height: 90%;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    overflow-x: scroll;
 `;
 
 export const Picture = styled.img`
@@ -38,17 +45,30 @@ export const Picture = styled.img`
         border: 1px solid var(--cyan);
         transform: scale(1.1);
     }
+    @media only screen and (max-width: 900px) {
+        width: 310px;
+        height: 310px;
+        aspect-ratio: 1/1;
+    }
 `;
 
 export const TextDiv = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 50%;
+    @media only screen and (max-width: 900px) {
+        margin-top: 20px;
+        min-width: 90%;
+    }
 
     & p {
         font: normal normal 1.05rem "Poppins", sans-serif;
         color: var(--white);
         text-align: justify;
+        
+        @media only screen and (max-width: 900px) {
+            font: normal normal .9rem "Poppins", sans-serif;
+        }
     }
 
     & a {

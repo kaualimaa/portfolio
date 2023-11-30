@@ -14,7 +14,9 @@ export const Name = styled.h1`
     font: normal normal 3.8rem "Poppins", sans-serif;
     color: var(--white);
     text-align: center;
-    /* margin-bottom: 20px; */
+    @media only screen and (max-width: 900px) {
+        font: normal normal 3.5rem "Poppins", sans-serif;
+    }
     
     & p {
         transition: .5s;
@@ -31,6 +33,9 @@ export const ShortDescription = styled.p`
     font: normal normal 2rem "Poppins", sans-serif;
     color: var(--white);
     text-align: center;
+    @media only screen and (max-width: 900px) {
+        font: normal normal 1.7rem "Poppins", sans-serif;
+    }
     
     & span {
         display: inline;

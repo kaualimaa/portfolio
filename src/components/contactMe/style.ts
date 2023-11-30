@@ -4,31 +4,51 @@ export const Section = styled.section`
     display: flex;
     flex-direction: column;
     width: 100%;
+    min-height: 65vh;
     justify-content: space-evenly;
     align-items: center;
+    @media only screen and (max-width: 700px) {
+        min-height: 160vh;
+        font: normal normal .9rem "Poppins", sans-serif;
+    }
 `;
 
 export const Title = styled.h1`
     font: normal bold 3rem "Poppins", sans-serif;
     color: var(--white);
     text-align: center;
+    
+    @media only screen and (max-width: 900px) {
+        font: normal bold 2rem "Poppins", sans-serif;
+    }
 `;
 
 export const ContactMeDiv = styled.div`
     display: flex;
-    flex-direction: row;
-    min-width: 60%;
-    min-height: 80vh;
     justify-content: center;
     align-items: center;
+    min-height: 80vh;
+    min-width: 90%;
+    max-width: 100%;
     background-color: var(--black2);
     border-radius: 10px;
+    padding: 0 20px;
+
+    @media only screen and (max-width: 500px) {
+        min-height: 150vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
 `;
 
 export const Social = styled.div`
     display: flex;
     width: 30%;
     height: 100%;
+    @media only screen and (max-width: 700px) {
+        width: 100%;
+    }
 
     & div {
         display: flex;
@@ -67,6 +87,9 @@ export const EmailDiv = styled.div`
     height: 100%;
     justify-content: center;
     align-items: center;
+    @media only screen and (max-width: 700px) {
+        width: 100%;
+    }
 
     & form {
         display: flex;

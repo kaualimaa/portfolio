@@ -12,11 +12,19 @@ export const Container = styled.header`
     z-index: 1;
     background-color: var(--black);
     opacity: .95;
+
+    @media only screen and (max-width: 900px) {
+        padding: 10px;
+    }
 `;
 
 export const Name = styled.div`
     font: normal normal 1.2rem "Poppins";
-    color: var(--white)
+    color: var(--white);
+
+    @media only screen and (max-width: 900px) {
+        display: none;
+    }
 `;
 
 export const Buttons = styled.div`
@@ -24,6 +32,9 @@ export const Buttons = styled.div`
     height: 100%;
     width: 50%;
     justify-content: space-evenly;
+    @media only screen and (max-width: 900px) {
+        width: 100%;
+    }
 `;
 
 export const Button = styled.a`
@@ -38,6 +49,11 @@ export const Button = styled.a`
     text-decoration: none;
     transition: .5s;
     padding: 5px 10px;
+
+    @media only screen and (max-width: 700px) {
+        font: bold normal .6rem "Poppins", sans-serif;
+        padding: 4px 6px;        
+    }
 
     &#resume {
         background-color: var(--blue);

@@ -20,8 +20,8 @@ export const ToolsSection = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -40,9 +40,13 @@ export const LinkBox = styled.a`
     font-family: "Poppins", sans-serif;
     border-radius: 15px;
     padding: 20px;
-    margin: 10px auto;
+    margin: 10px 0;
     background-color: var(--gray);
     transition: .4s;
+
+    @media only screen and (max-width: 700px) {
+        min-width: 320px;
+    }
 
     & h2 {
         font-size: 1.2rem;

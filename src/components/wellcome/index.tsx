@@ -16,7 +16,7 @@ import {
 export function Wellcome(){
     return (
         <Section id="home">
-            <Name>Hi, I am <p>Kauã Lima</p></Name>
+            <Name>Hi, I am <p>Kauã Limo</p></Name>
             <ShortDescription>I'm a developer passionate about <span>Mathematics</span> and <span>Artificial Intelligence</span>.</ShortDescription>
             <Links>
                 <Link href="https://github.com/kaualimaa" target="_blank"><GithubLogo size={36} weight="fill" /></Link>

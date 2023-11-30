@@ -20,8 +20,8 @@ export const ProjectsDiv = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    /* align-items: ; */
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -34,31 +34,27 @@ export const Project = styled.div`
     flex-direction: column;
     align-items: start;
     min-height: 40rem;
-    height: 100%;
     width: 30rem;
-    max-width: 100%;
-    max-height: 30%;
     background-color: var(--gray);
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 20px 0;
     overflow-y: scroll;
-
+    
     & img {
+        aspect-ratio: 16/10;
         width: 100%;
-        height: 55%;
         border-radius: 10px 10px 0 0;
         margin-bottom: 10px;
     }
 
     & div {
         display: flex;
-        position: relative;
         flex-direction: column;
-        height: 45%;
+        height: 100%;
         width: 100%;
         justify-content: start;
         align-items: center;
-        padding: 0 10px;
+        padding: 10px 10px;
     }
 
     & div h1 {
