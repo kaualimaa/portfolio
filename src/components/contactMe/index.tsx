@@ -51,7 +51,7 @@ export function ContactMe(){
     }
 
     return (
-        <Section>
+        <Section id="contactme">
             <Title>Contact Me</Title>
             <ContactMeDiv>
                 <Social>

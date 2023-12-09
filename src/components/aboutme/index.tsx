@@ -2,7 +2,7 @@ import { Section, Title, AboutMeDiv, Picture, TextDiv } from "./style";
 
 export function AboutMe(){
     return(
-        <Section>
+        <Section id="aboutme"> 
             <Title>About Me</Title>
             <AboutMeDiv>
                 <Picture src="https://avatars.githubusercontent.com/u/93043960?v=4" alt="Kauã Lima (Me)" />

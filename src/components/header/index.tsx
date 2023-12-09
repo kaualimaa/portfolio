@@ -13,8 +13,8 @@ export function Header(){
                 <Button href="#home">Home</Button>
                 <Button href="#skills">Skills</Button>
                 <Button href="#projects">Projects</Button>
-                <Button href="">About Me</Button>
-                <Button href="">Contact Me</Button>
+                <Button href="#aboutme">About Me</Button>
+                <Button href="#contactme">Contact Me</Button>
                 <Button id="resume">Resume</Button>
             </Buttons>
         </Container>
