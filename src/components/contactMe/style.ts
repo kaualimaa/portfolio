@@ -4,9 +4,10 @@ export const Section = styled.section`
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 65vh;
+    min-height: 100vh;
     justify-content: space-evenly;
     align-items: center;
+
     @media only screen and (max-width: 700px) {
         min-height: 160vh;
         font: normal normal .9rem "Poppins", sans-serif;
