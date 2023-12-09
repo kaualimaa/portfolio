@@ -60,7 +60,7 @@ export function ContactMe(){
                         <a href="https://www.linkedin.com/in/kaua-lima/" target="_blank"><LinkedinLogo size={36} weight="fill" /> LinkedIn</a>
                         <a href="https://www.instagram.com/kaualimadev/" target="_blank"><InstagramLogo size={36} weight="fill" /> Instagram</a>
                         <a href="https://twitter.com/kaualimadev" target="_blank"><TwitterLogo size={36} weight="fill" /> Twitter</a>
-                        <a href="https://www.youtube.com/channel/UCrjwgVR-_e4tFPhOutC9F9A" target="_blank"><YoutubeLogo size={36} weight="fill" /> Youtebe</a>
+                        <a href="https://www.youtube.com/channel/UCrjwgVR-_e4tFPhOutC9F9A" target="_blank"><YoutubeLogo size={36} weight="fill" /> YouTube</a>
                     </div>
                 </Social>
                 <EmailDiv>
